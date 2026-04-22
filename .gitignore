@@ -1,11 +1,18 @@
-# Personal data (user fills these)
-cv.md
+# Personal data — This is Praneeth's fork, so we TRACK personalized files.
+# cv.md — TRACKED (personalized)
+# config/profile.yml — TRACKED (personalized)
+# portals.yml — TRACKED (personalized)
+# _profile.md — TRACKED (personalized)
+
+# Runtime data (changes per session, don't commit)
 data/applications.md
 data/pipeline.md
 data/scan-history.tsv
+data/*.pdf
 reports/*.md
 !reports/.gitkeep
-output/*
+output/*.pdf
+output/*.html
 !output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
@@ -16,10 +23,7 @@ batch/tracker-additions/**/*.tsv
 jds/*
 !jds/.gitkeep
 
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# Update state
 .update-dismissed
 .update-lock
 

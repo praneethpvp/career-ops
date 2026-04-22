@@ -1,0 +1,82 @@
+# Career-Ops Profile Configuration — Praneeth Varma
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Venkata Praneeth Varma Penumatsa"
+  email: "praneeth.verma@gmail.com"
+  phone: "480-709-0030"
+  location: "Fremont, CA, USA"
+  linkedin: "linkedin.com/in/praneethvarma"
+  portfolio_url: "https://www.praneethvarma.com"
+  github: "github.com/praneethpvp"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Senior Data Analyst"
+    - "Staff Data Analyst"
+    - "Senior Product Analyst"
+    - "Senior Analytics Engineer"
+    - "AI/ML Data Analyst"
+    - "Senior Data Scientist"
+  archetypes:
+    - name: "Data/Product Analyst"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "Analytics Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "AI/ML Engineer"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Data Scientist"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Business Intelligence Engineer"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "AI Product Analyst"
+      level: "Senior"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Data Analyst & Scientist with 10 years at Google, Amazon, Microsoft, and Intuit — turning complex data into actionable product strategy"
+  # Your exit story — what makes you unique
+  exit_story: "Built fraud detection systems at Google, optimized search at Amazon, drove global campaigns at Microsoft, and now building Fraud Policy KPI frameworks at Intuit. I combine deep technical SQL/Python skills with business acumen to 10x analytical output using AI."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "End-to-end dashboard and KPI framework development"
+    - "Fraud/Risk analytics and pattern detection at scale"
+    - "Advanced SQL on petabyte-scale datasets (BigQuery, Snowflake, Athena)"
+    - "Cross-functional storytelling — translating data into product strategy"
+    - "AI-augmented analytics — using AI to 10x previous workflows"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "FinRisk Analytics Platform (Intuit)"
+      url: "https://www.praneethvarma.com"
+      hero_metric: "16+ production dashboards, 20+ ETL pipelines across Payments, Payroll, Bill Pay, Banking, and Capital"
+    - name: "Search Optimization (Amazon)"
+      url: "https://www.praneethvarma.com"
+      hero_metric: "20% lift in customer engagement through ML-refined search ranking"
+    - name: "Global Campaign Analytics (Microsoft)"
+      url: "https://www.praneethvarma.com"
+      hero_metric: "25+ campaigns, 20% engagement boost, 25% new customer acquisition"
+    - name: "Fraud Detection Models (Google)"
+      url: "https://www.praneethvarma.com"
+      hero_metric: "50% improvement in fraudulent profile detection, 60% recall on abusive orders"
+    - name: "Dashboard Migration (Intuit)"
+      url: "https://www.praneethvarma.com"
+      hero_metric: "Migrated 10+ dashboards to QuickSight with improved data quality"
+
+compensation:
+  target_range: "$220K-280K"  # Your target total comp
+  currency: "USD"
+  minimum: "$200K"  # Walk-away number
+  location_flexibility: "Open to remote, hybrid, or on-site — flexible on arrangement"
+
+location:
+  country: "United States"
+  city: "Fremont, CA (San Francisco Bay Area)"
+  timezone: "PST"
+  visa_status: "No sponsorship needed"
