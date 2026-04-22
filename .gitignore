@@ -4,22 +4,26 @@
 # portals.yml — TRACKED (personalized)
 # _profile.md — TRACKED (personalized)
 
-# Runtime data (changes per session, don't commit)
-data/applications.md
+# Application history — TRACKED (Praneeth wants his job-search work preserved in git)
+# reports/*.md — TRACKED (evaluation reports)
+# data/applications.md — TRACKED (application tracker)
+# output/*.html — TRACKED (tailored CV sources)
+# output/*.pdf — TRACKED (tailored CV PDFs)
+# batch/tracker-additions/merged/*.tsv — TRACKED (audit trail)
+
+# Ephemeral runtime data (session-scoped, don't commit)
 data/pipeline.md
 data/scan-history.tsv
 data/*.pdf
-reports/*.md
-!reports/.gitkeep
-output/*.pdf
-output/*.html
-!output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
 batch/batch-input.tsv
-batch/tracker-additions/**/*.tsv
+batch/tracker-additions/*.tsv
 !batch/tracker-additions/.gitkeep
+!batch/tracker-additions/merged/*.tsv
+
+# JDs are user-pasted scratch, stay local
 jds/*
 !jds/.gitkeep
 

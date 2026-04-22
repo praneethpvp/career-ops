@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praneeth Varma - Resume</title>
+<style>
+  @page { size: letter; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.35;
+    color: #1a1a1a;
+    padding: 36px 48px 28px 48px;
+    max-width: 8.5in;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .header { text-align: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1.5px solid #222; }
+  .header h1 { font-size: 18pt; font-weight: 700; letter-spacing: 1.5px; color: #1a1a1a; margin-bottom: 4px; }
+  .contact-line { font-size: 8.8pt; color: #444; letter-spacing: 0.2px; }
+  .contact-line a { color: #444; text-decoration: none; }
+  .sep { margin: 0 5px; color: #aaa; }
+  .section { margin-bottom: 10px; }
+  .page-break { page-break-before: always; padding-top: 36px; }
+  .section-title {
+    font-size: 9pt; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 2px; color: #1a1a1a;
+    border-bottom: 0.75px solid #bbb; padding-bottom: 1px; margin-bottom: 6px;
+  }
+  .summary p { font-size: 9.2pt; line-height: 1.4; color: #2a2a2a; }
+  .role { margin-bottom: 10px; }
+  .role:last-child { margin-bottom: 0; }
+  .role-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .role-title { font-size: 9.6pt; font-weight: 700; color: #1a1a1a; }
+  .role-date { font-size: 8.5pt; color: #555; white-space: nowrap; padding-left: 10px; }
+  .role-company { font-size: 9pt; font-style: italic; color: #555; margin-bottom: 2px; }
+  .role ul { padding-left: 14px; }
+  .role li { font-size: 9.2pt; margin-bottom: 2px; line-height: 1.35; color: #2a2a2a; }
+  .skills-grid { display: grid; grid-template-columns: 155px 1fr; row-gap: 6px; font-size: 9.2pt; }
+  .skill-cat { font-weight: 700; color: #1a1a1a; padding: 2px 0; }
+  .skill-val { color: #2a2a2a; padding: 2px 0; line-height: 1.4; }
+  .edu-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 9.2pt; margin-bottom: 2px; }
+  .edu-left { color: #1a1a1a; }
+  .edu-left strong { font-weight: 700; }
+  .edu-left em { font-style: italic; color: #555; }
+  .edu-right { font-size: 8.5pt; color: #555; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>VENKATA PRANEETH VARMA PENUMATSA</h1>
+  <div class="contact-line">
+    Fremont, CA<span class="sep">|</span>480-709-0030<span class="sep">|</span>praneeth.verma@gmail.com<span class="sep">|</span><a href="https://linkedin.com/in/praneethvarma">linkedin.com/in/praneethvarma</a><span class="sep">|</span><a href="https://www.praneethvarma.com">praneethvarma.com</a>
+  </div>
+</div>
+
+<div class="section summary">
+  <div class="section-title">Summary</div>
+  <p>Senior Analytics Engineer with 10+ years building production data pipelines, dimensional models, and self-serve analytics platforms at Google, Amazon, Microsoft, and Intuit. Currently own 20+ ETL pipelines and 16+ dashboards across five product lines at Intuit, with deep experience in data quality testing, warehouse-layer transformations (Redshift, BigQuery, Snowflake), and enabling non-technical stakeholders to self-serve insights. Track record of designing attribution and product-usage analytics that directly shape GTM strategy and product roadmap decisions.</p>
+</div>
+
+<div class="section">
+  <div class="section-title">Experience</div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Senior Data Analyst &mdash; Analytics Engineering Lead, FinRisk</span>
+      <span class="role-date">Oct 2024 &ndash; Present</span>
+    </div>
+    <div class="role-company">Intuit &mdash; Mountain View, CA</div>
+    <ul>
+      <li>Designed and maintained 20+ Superglue ETL pipelines and 8 aggregate tables in Redshift powering fraud-policy analytics across Payments, Payroll, Bill Pay, Banking, and Capital &mdash; the org's core data infrastructure layer.</li>
+      <li>Implemented data quality testing across the full pipeline stack, catching silent failures in legacy Tableau-era pipelines during the QuickSight migration and establishing validation standards adopted org-wide.</li>
+      <li>Led migration of 10+ dashboards from Tableau to AWS QuickSight, re-engineering 50+ worksheets, translating LOD expressions into level-aware SQL transformations, and building reusable calculation layers for self-serve analytics.</li>
+      <li>Designed the ONB 2.0 merchant-mapping data model connecting 10+ downstream risk dashboards, partnering with engineering to resolve production defects for a zero-gap rollout.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Marketing Data Analyst</span>
+      <span class="role-date">Oct 2023 &ndash; Sep 2024</span>
+    </div>
+    <div class="role-company">Microsoft &mdash; Remote</div>
+    <ul>
+      <li>Partnered with Product Managers to drive 25+ global campaigns for Azure and Office across APAC, NA, and EMEA, establishing SQL-based KPI frameworks for campaign performance and building audience-segmentation pipelines PMs could self-serve.</li>
+      <li>Drove a 20% lift in customer engagement and 25% increase in new customer acquisition by surfacing regional performance gaps through automated pipelines and feeding targeting fixes back into campaign strategy.</li>
+      <li>Collaborated with 4 Product Managers, Data Engineers, and UX designers to translate data insights into concrete in-product recommendations optimized for diverse international markets.</li>
+      <li>Established the team's A/B testing playbook, standardizing how marketing experiments were designed, measured, and reported.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Business Intelligence Engineer</span>
+      <span class="role-date">Aug 2022 &ndash; Aug 2023</span>
+    </div>
+    <div class="role-company">Amazon &mdash; Palo Alto, CA</div>
+    <ul>
+      <li>Led search optimization for US and India marketplaces, defining and monitoring search quality KPIs (CTR, relevance, conversion) with advanced SQL against petabyte-scale datasets to surface user intent gaps that reshaped product roadmap priorities.</li>
+      <li>Partnered with ML scientists on search ranking refinement, running A/B tests and statistical validation that shipped ranking changes delivering a 20% lift in customer engagement.</li>
+      <li>Engineered the ETL backbone for marketplace analytics using AWS Glue, S3, and Airflow, aggregating merchant performance, search relevance, and catalog data across US and India into a unified analytical layer adopted by 3 partner teams.</li>
+      <li>Onboarded and ramped 2 new BIEs on the team's data infrastructure and experimentation workflows.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Product Analyst</span>
+      <span class="role-date">Apr 2020 &ndash; Jan 2022</span>
+    </div>
+    <div class="role-company">Microsoft &mdash; Remote</div>
+    <ul>
+      <li>Rewrote the ETL backing 10 legacy product reports in SQL and Azure Data Studio, eliminating 95% of data inconsistencies that had been driving incorrect downstream decisions.</li>
+      <li>Built automated reporting that surfaced previously untracked customer revenue, improving identification by 12% and enabling the sales team to reprioritize accounts.</li>
+      <li>Cut biweekly analytics delivery time by 33% by optimizing reporting workflows in Power BI and SQL, freeing ~8 hours/week of team capacity to redirect toward deeper product analysis.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Data Analyst &mdash; Fraud &amp; Risk</span>
+      <span class="role-date">Feb 2018 &ndash; Apr 2020</span>
+    </div>
+    <div class="role-company">Google &mdash; Mountain View, CA</div>
+    <ul>
+      <li>Built production Python/ML models for Google Shopping fraud detection that reached 60% recall on abusive orders and cut transactional losses by 50%.</li>
+      <li>Designed the data models behind fraudulent profile detection, driving a 50% improvement in proactive detection, and deployed Tableau dashboards with auto-alerting so the payments team could act on abuse in real time.</li>
+      <li>Partnered with engineering and policy to convert model outputs into platform-wide detection rules, tuning precision and coverage to scale fraud defense across high-volume transaction paths.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <span class="skill-cat">Data Engineering &amp; Modeling</span>
+    <span class="skill-val">dbt (Core) &bull; Apache Airflow &bull; AWS Glue &bull; Superglue &bull; ETL/ELT Pipeline Design &bull; Data Modeling (Star/Snowflake, SCDs) &bull; Data Quality Testing &bull; CI/CD (GitHub Actions)</span>
+
+    <span class="skill-cat">Programming</span>
+    <span class="skill-val">SQL (Redshift, Spark SQL, BigQuery, Snowflake, Athena, T-SQL) &bull; Python (Pandas, NumPy, PySpark, scikit-learn) &bull; R &bull; DAX &bull; JavaScript</span>
+
+    <span class="skill-cat">Cloud &amp; Warehouses</span>
+    <span class="skill-val">AWS (S3, Glue, Athena, Redshift, Lambda, IAM) &bull; BigQuery &bull; Snowflake &bull; Azure (Data Factory, Synapse) &bull; Databricks</span>
+
+    <span class="skill-cat">Analytics</span>
+    <span class="skill-val">Product Analytics &bull; User Behavior Metrics &bull; A/B Testing &bull; Attribution Modeling &bull; KPI Framework Design &bull; Cohort/Funnel Analysis</span>
+
+    <span class="skill-cat">Visualization</span>
+    <span class="skill-val">Tableau &bull; AWS QuickSight &bull; Power BI (DAX, M) &bull; Looker (LookML)</span>
+
+    <span class="skill-cat">AI &amp; Automation</span>
+    <span class="skill-val">Claude Code / MCP servers &bull; agentic analytics tooling &bull; AI-assisted SQL workflows</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-row">
+    <div class="edu-left"><strong>M.S. Business Analytics</strong> &mdash; <em>Arizona State University, Tempe</em></div>
+    <div class="edu-right">GPA: 3.8</div>
+  </div>
+  <div class="edu-row">
+    <div class="edu-left"><strong>B.E. Electronics &amp; Communication</strong> &mdash; <em>Amrita School of Engineering, Bangalore</em></div>
+    <div class="edu-right">GPA: 3.5</div>
+  </div>
+</div>
+
+</body>
+</html>
